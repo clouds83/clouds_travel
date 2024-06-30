@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clouds Travel</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="travel_recommendation.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <span>clouds travel</span>
+          <img src="/images/logo-icon.svg" alt="Clouds Travel" />
+        </div>
+
+        <nav>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about-us.html">About Us</a></li>
+            <li><a href="/contact.html">Contact Us</a></li>
+          </ul>
+        </nav>
+
+        <div class="search-container">
+          <input type="text" id="searchInput" placeholder="Enter a destination keyword" class="search-input" />
+
+          <input type="submit" value="Search" class="search-button" onclick="fetchData()" />
+
+          <input type="reset" value="Reset" class="reset-search" onclick="clearSearch()" />
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero-left">
+            <h1>Explore your dream destination</h1>
+
+            <p>
+              Discover stunning destinations and unforgettable experiences with our curated travel packages. Whether
+              it's a tropical escape, cultural adventure, or peaceful retreat, your perfect journey awaits. Create
+              lasting memories with every trip.
+            </p>
+
+            <button class="hero-cta">Book now</button>
+          </div>
+          <div class="hero-right"></div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
