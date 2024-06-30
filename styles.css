@@ -92,7 +92,7 @@ header ul {
 
 .hero {
   background: linear-gradient(to right, rgba(11, 137, 112, 1), rgba(11, 137, 112, 0.4)),
-    url('/images/hero-bg.jpg') no-repeat center/cover;
+    url('images/hero-bg.jpg') no-repeat center/cover;
   height: calc(100dvh - 4.125rem);
 }
 
